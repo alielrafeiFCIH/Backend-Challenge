@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block content %}
+<form action="" method="POST">
+    <h1>
+        Query
+    </h1>
+    <p>
+        {{form.product_type.label}}
+        {{form.product_type(size=300)}}
+    </p>
+    <p>
+        {{form.water_line.label}}
+        {{form.water_line(size=300)}}
+    </p>
+    <p>
+        {{form.run()}}
+    </p>
+</form>
+{% endblock%}

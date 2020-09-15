@@ -1,0 +1,6 @@
+.vscode
+__pycache__
+challenge
+service/__pycache__
+data/__pycache__
+main.py
